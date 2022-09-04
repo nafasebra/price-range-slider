@@ -10,7 +10,7 @@
     pointer-events: none;
   }
   body {
-    @apply bg-greenc-100;
+    @apply bg-light;
   }
 }
 
