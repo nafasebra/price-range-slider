@@ -11,6 +11,9 @@ module.exports = {
           200: '#10D7C4',
         },
       },
+      backgroundImage: {
+        'circle': 'url("../src/assets/pattern-circles.svg")'
+      }
     },
   },
   plugins: [],
