@@ -9,6 +9,7 @@ module.exports = {
         'turquoise': {
           100: '#A3F1E9',
           200: '#10D7C4',
+          300: '#24A9A2',
         },
       },
       backgroundImage: {

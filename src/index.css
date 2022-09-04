@@ -13,6 +13,14 @@
     background-size: auto 100%;
     background-position: center;
   }
+
+  input[type=range]::-webkit-slider-thumb {
+    @apply appearance-none relative w-7 h-7 bg-turquoise-200 rounded-full shadow-lg shadow-turquoise-100;
+  }
+  input[type=range]::-webkit-slider-thumb:hover,
+  input[type=range]::-webkit-slider-thumb:active {
+    @apply bg-turquoise-300;
+  }
 }
 
 *,
