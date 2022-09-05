@@ -11,6 +11,8 @@ function Toggle() {
     >
       <input
         type="checkbox"
+        checked={PriceUseContext.isYearly}
+        onChange={(e) => PriceUseContext.setIsYearly(e.target.checked)}
         id="toggle"
         className="sr-only peer"
       />
