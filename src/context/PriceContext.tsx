@@ -1,25 +1,30 @@
-import {createContext, useState} from 'react'
+import { createContext, useState } from "react";
 
 type ContextType = {
-   price: number;
-   setPrice: (a: number) => void;
-}
+  price: number;
+  isYearly: boolean;
+  setPrice: (a: number) => void;
+  setIsYearly: (a: boolean) => void;
+};
 
 type propType = {
-   children: JSX.Element[] | JSX.Element;
-}
+  children: JSX.Element[] | JSX.Element;
+};
 
 export const PriceContext = createContext<ContextType>({
-   price: 0,
-   setPrice: () => {},
+  price: 0,
+  isYearly: false,
+  setPrice: () => {},
+  setIsYearly: () => {},
 });
 
-export function PriceProvider({children}: propType) {
-   const [price, setPrice] = useState<number>(0);
+export function PriceProvider({ children }: propType) {
+  const [price, setPrice] = useState<number>(0);
+  const [isYearly, setIsYearly] = useState<boolean>(0);
 
-   return (
-      <PriceContext.Provider value={{price, setPrice}}>
-         {children}
-      </PriceContext.Provider>
-   )
+  return (
+    <PriceContext.Provider value={{ price, isYearly, setPrice, setIsYearly }}>
+      {children}
+    </PriceContext.Provider>
+  );
 }

@@ -1,4 +1,9 @@
+import { useContext, useEffect } from "react";
+import { PriceContext } from "../context/PriceContext";
+
 function Toggle() {
+  const PriceUseContext = useContext(PriceContext);
+
   return (
     <label
       htmlFor="toggle"
