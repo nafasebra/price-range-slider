@@ -13,8 +13,12 @@ function CardContainer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="opacity-70 uppercase pb-5 md:pb-0">100k pageviews</p>
           <div className="flex items-center">
-            <p className="text-4xl font-semibold">${PriceUseContext.price}</p>
-            <p className="pl-3 opacity-70">/ month</p>
+            <p className="text-4xl font-semibold">
+              ${PriceUseContext.isYearly ? PriceUseContext.price * 12 : PriceUseContext.price}
+            </p>
+            <p className="pl-3 opacity-70">
+              / {PriceUseContext.isYearly ? "Year" : "Month"}
+            </p>
           </div>
         </div>
         <Range />
