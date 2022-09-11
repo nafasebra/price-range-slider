@@ -1,9 +1,9 @@
-# Tip (tax) calculator 
-### Tip calculator Created with Reactjs, TypeScript and tailwind
+# Price range slider 
+### The price range slider (price changer) created with ReactJS, TailwindCSS and TypeScirpt
 
 
-#### [Watch demo](https://nafasebra.github.io/tip-calculator-reactts)
-![Capture](https://user-images.githubusercontent.com/74317517/187750292-4a1c897b-845e-4eef-8369-3a216fa3c570.PNG)
+#### [Watch demo](https://nafasebra.github.io/price-range-slider)
+![sdf](https://user-images.githubusercontent.com/74317517/189531180-589c7428-ad87-4777-a221-94cb35d7ee92.PNG)
 
 
 ## Tools:
@@ -14,8 +14,19 @@
 - npm
 
 ## What challenges have for me?
-- Handle tabbar, FAQ items and sidebar with typescript/react
+- Add style for customizing range input
 
 ## How to use this?
-- first install npm and type this command to your terminal: `npm install`
-- for run this project, write this: `npm run dev`
+- first install npm if don't have on you computer
+- clone this project:
+```bash
+git clone https://github.com/nafasebra/price-range-slider
+```
+- type this command to your terminal: 
+```bash
+npm install
+```
+- for run this project, write this: 
+```bash
+npm run dev
+```

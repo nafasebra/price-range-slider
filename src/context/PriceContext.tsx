@@ -19,7 +19,7 @@ export const PriceContext = createContext<ContextType>({
 });
 
 export function PriceProvider({ children }: propType) {
-  const [price, setPrice] = useState<number>(0);
+  const [price, setPrice] = useState<number>(50);
   const [isYearly, setIsYearly] = useState<boolean>(false);
 
   return (

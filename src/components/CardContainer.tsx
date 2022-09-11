@@ -36,15 +36,15 @@ function CardContainer() {
         <ul className="mb-5 md:mb-5">
           <li className="flex items-center justify-center md:justify-start py-1 ">
             <svg className="w-5 h-5 text-turquoise-200 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-            <p className="opacity-80">option 1</p>
+            <p className="opacity-80">The best price slider</p>
           </li>
           <li className="flex items-center justify-center md:justify-start py-1 ">
             <svg className="w-5 h-5 text-turquoise-200 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-            <p className="opacity-80">option 1</p>
+            <p className="opacity-80">Beautiful UI</p>
           </li>
           <li className="flex items-center justify-center md:justify-start py-1 ">
             <svg className="w-5 h-5 text-turquoise-200 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-            <p className="opacity-80">option 1</p>
+            <p className="opacity-80">Using TypeScript</p>
           </li>
         </ul>
         <a href="#" className="bg-dark w-[90%] mx-auto md:w-[170px] md:mx-0 rounded-full text-center py-3 text-gray-300 hover:text-white">
